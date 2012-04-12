@@ -1,0 +1,13 @@
+<h1>Pizzahut Order #<%= @meal.id %></h1>
+
+<p>Date: <%= l @meal.ordered_at, :format => :long %></p>
+<p>Price:  <%= @meal.price %> <%= @meal.currency %></p>
+
+<ul>
+  <%- for product in @meal.products -%>
+    <li><%= product[:name] %>: <%= product[:total] %> (<%= product[:units] %> * <%= product[:price] %>)</li>
+  <%- end -%>
+</ul>
+
+
+<p class="button save medium"><a href="#">ORDER AGAIN NOW!</a></p>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  ordered_at: 2012-04-09 14:55:46
+  payload: MyText
+
+two:
+  user_id: 1
+  ordered_at: 2012-04-09 14:55:46
+  payload: MyText
