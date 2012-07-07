@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Convert email order confirmations from Pizzahut Portugal to meal order activities."
   s.description = "This Manybots Agent relies on the Manybots Gmail Observer to get any emails from Pizzahut Portugal's order confirmation system and convert them to quantifiable activities."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.2"
